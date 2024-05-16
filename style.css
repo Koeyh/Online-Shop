@@ -14,8 +14,6 @@
   --size-thumbnail: 50px;
   --font-size: 18px;
 
-  /* animation */
-  --size-animation-duration: 300ms;
 }
 
 * {
@@ -89,7 +87,7 @@ hover(마우스 포인터가 해당 요소위에 있을 때)상태일 때
   height: 60%;
   list-style: none;
   padding-left: 0;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .item {
@@ -98,6 +96,7 @@ hover(마우스 포인터가 해당 요소위에 있을 때)상태일 때
   align-items: center;
   margin-bottom: var(--base-space);
   padding: var(--base-space);
+  border-radius: 7px;
 }
 
 .item__thumbnail {
