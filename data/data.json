@@ -31,14 +31,14 @@
         {
             "type": "tshirt", 
             "gender": "female", 
-            "size": "free", 
+            "size": "small", 
             "color": "pink", 
             "img": "../img/pink_t.png"
         },
         {
             "type": "tshirt", 
             "gender": "male", 
-            "size": "free", 
+            "size": "large", 
             "color": "pink", 
             "img": "../img/pink_t.png"
         },
